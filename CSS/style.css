@@ -1,0 +1,553 @@
+:root {
+    width: 100%;
+    height: 100%;
+    font-size: 60%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(218, 237, 255);
+}
+
+#corAzul {
+    height: 770px;
+}
+
+#logoClinica {
+    width: 190px;
+    margin-left: 20px;
+}
+
+.espaco1 {
+    height: 2px;
+}
+
+.espaco2 {
+    height: 50px;
+}
+
+.info {
+    margin: 1rem auto;
+    width: 93%;
+    height: 620px;
+    background-color: white;
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.info h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.info p {
+    margin-top: 50%;
+    font-size: 2rem;
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+#slider {
+    position: relative;
+    margin: 0 auto;
+    width: 93%;
+    height: 260px;
+}
+
+#slider img {
+    position: absolute;
+    width: 100%;
+    max-height: 260px;
+    border-radius: 2.5rem;
+}
+
+.iconesInfo img {
+    width: 50px;
+    margin-left: 2rem;
+}
+
+.iconesInfo img .uni {
+    width: 70px;
+    margin-left: 2rem;
+}
+
+.iconesInfo p {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.whatsapp {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43%;
+    height: 5rem;
+    background: linear-gradient(to bottom right, rgb(191, 255, 191) 0%, #10ee40 100%);
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+    margin-right: 1rem;
+}
+
+.whatsapp:hover {
+    background: linear-gradient(to bottom right, rgb(191, 255, 191) 0%, #0a9628 100%);
+}
+
+.whatsapp a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatsapp img {
+    width: 3rem;
+}
+
+.whatsapp p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.6rem;
+}
+
+.telefone {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43%;
+    height: 5rem;
+    background: linear-gradient(to bottom right, #dff7ff 0%, rgb(186, 201, 252) 100%);
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.telefone:hover {
+    background: linear-gradient(to bottom right, #dff7ff 0%, rgb(87, 111, 190) 100%);
+}
+
+.telefone img {
+    width: 3rem;
+}
+
+.telefone p {
+    font-size: 1.6rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.telefone a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#corVermelho {
+    background: linear-gradient(to bottom right, rgb(255, 202, 202) 0%, #ff3737 100%);
+}
+
+#corVermelho:hover {
+    background: linear-gradient(to bottom right, rgb(255, 202, 202) 0%, #af1414 100%);
+}
+
+.gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.gmail img {
+    width: 3rem;
+}
+
+.gmail p {
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.gmail a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.espaco {
+    height: 3rem;
+}
+
+#corVar1 {
+    width: 100%;
+    height: 700px;
+}
+
+.claudia img {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.claudia h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.claudia p {
+    font-size: 1.6rem;
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+#pediatra {
+    margin-top: 0;
+}
+
+.iconesClau {
+    margin: 3rem auto;
+    width: 93%;
+    height: 320px;
+    background: linear-gradient(to top left, #91e4ff 0%, rgb(81, 122, 255) 100%);
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.iconesClau p {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.iconesClau img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 50px;
+}
+
+#linha-horizontal {
+    width: 100vw;
+}
+
+.ariangelo img {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.ariangelo h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.ariangelo p {
+    font-size: 1.6rem;
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+#cirurgiao {
+    margin-top: 0;
+}
+
+.iconesAri {
+    margin: 3rem auto;
+    width: 93%;
+    height: 240px;
+    background: linear-gradient(to top left, #91e4ff 0%, rgb(81, 122, 255) 100%);
+    border-radius: 2.5rem;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.iconesAri p {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.iconesAri img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 50px;
+}
+
+.endereco {
+    background-color: rgb(219, 219, 219);
+}
+
+.endereco h2 {
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.endereco p {
+    font-size: 1.6rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.mapa1 {
+    margin-left: 1rem;
+    border-radius: 2.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.mapa2 {
+    display: none;
+}
+
+@media(max-width: 350px) {
+    .iconesInfo p {
+        font-size: 1.5rem;
+    }
+    .iconesClau p {
+        font-size: 1.5rem;
+    }
+    .iconesAri p {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width: 999px) {
+    .info {
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+    }
+    #slider {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 650px;
+        height: 440px;
+        border-radius: 2.5rem;
+    }
+    #slider img {
+        width: 100%;
+        max-height: 460px;
+    }
+    .info h2 {
+        display: none;
+    }
+    .iconesInfo {
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    #corAzul {
+        height: 650px;
+    }
+    .whatsapp {
+        width: 20%;
+    }
+    .telefone {
+        width: 20%;
+    }
+    #corVermelho {
+        margin: 0 auto;
+        width: 25%;
+        border-radius: 2.5rem;
+    }
+    .gmail {
+        border-radius: 2.5rem;
+    }
+    .iconesClau {
+        width: 20%;
+    }
+    .iconesAri {
+        width: 20%;
+    }
+    #corVar1 {
+        width: 46%;
+        height: 700px;
+        display: inline-block;
+        margin-left: 60px;
+    }
+    .claudia img {
+        width: 300px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        border-radius: 2.5rem;
+        box-shadow: 1px 1px 1px gray;
+    }
+    .claudia h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.9rem;
+        margin: 0;
+        font-family: 'Comfortaa', cursive;
+    }
+    .claudia p {
+        font-size: 1.6rem;
+        margin-right: 1.3rem;
+        margin-left: 1.3rem;
+        margin-top: 2rem;
+        font-family: 'Comfortaa', cursive;
+    }
+    #pediatra {
+        margin-top: 0;
+    }
+    .iconesClau {
+        margin: 3rem auto;
+        width: 93%;
+        height: 320px;
+        background: linear-gradient(to top left, #91e4ff 0%, rgb(81, 122, 255) 100%);
+        border-radius: 2.5rem;
+        box-shadow: 1px 1px 1px gray;
+    }
+    .iconesClau p {
+        display: inline-block;
+        font-size: 2rem;
+        color: white;
+    }
+    .iconesClau img {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        width: 50px;
+    }
+    #corVar2 {
+        width: 46%;
+        height: 700px;
+        float: right;
+        margin-top: -690px;
+        margin-right: 60px;
+    }
+    .ariangelo img {
+        width: 300px;
+        height: 250px;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 2.5rem;
+        box-shadow: 1px 1px 1px gray;
+    }
+    .ariangelo h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.9rem;
+        margin: 0;
+        font-family: 'Comfortaa', cursive;
+    }
+    .ariangelo p {
+        font-size: 1.6rem;
+        margin-right: 1.3rem;
+        margin-left: 1.3rem;
+        margin-top: 2rem;
+        font-family: 'Comfortaa', cursive;
+    }
+    #cirurgiao {
+        margin-top: 0;
+    }
+    .iconesAri {
+        margin: 3rem auto;
+        width: 93%;
+        height: 240px;
+        background: linear-gradient(to top left, #91e4ff 0%, rgb(81, 122, 255) 100%);
+        border-radius: 2.5rem;
+        box-shadow: 1px 1px 1px gray;
+    }
+    .iconesAri p {
+        display: inline-block;
+        font-size: 2rem;
+        color: white;
+    }
+    .iconesAri img {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        width: 50px;
+    }
+}
+
+@media(min-width: 1200px) {
+    #slider {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 800px;
+        height: 440px;
+        border-radius: 2.5rem;
+    }
+    #slider img {
+        width: 100%;
+        max-height: 460px;
+    }
+}
+
+@media(min-width: 1600px) {
+    #logoClinica {
+        margin-left: 60px;
+    }
+    #slider {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 900px;
+        height: 440px;
+        border-radius: 2.5rem;
+    }
+    #slider img {
+        width: 100%;
+        max-height: 460px;
+    }
+    .iconesInfo p {
+        font-size: 2.4rem;
+    }
+    .mapa1 {
+        display: none;
+    }
+    .mapa2 {
+        margin-left: 1rem;
+        border-radius: 2.5rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .claudia img {
+        width: 380px;
+        height: 320px;
+    }
+    .ariangelo img {
+        width: 380px;
+        height: 320px;
+    }
+    .endereco {
+        margin-top: 100px;
+    }
+}
